@@ -195,6 +195,10 @@ span {
     
 }
 
+.box:hover{
+    transform: scale(0.9);
+}
+
 .box-content{
     margin-left: 1rem;
     margin-right: 1rem;
@@ -241,6 +245,10 @@ span {
 .img-a11{
     margin-right: 15px;
     margin-top: 10px;
+}
+
+.img-a11:hover{
+    transform: scale(0.9);
 }
 
 /* footer */
