@@ -124,7 +124,7 @@ nav li:hover {
 .hero {
   background: url(2.png) no-repeat center;
   background-size: cover;
-  height: 766px;
+  height: 100vh;
   position: relative;
   width: 100vw;
 }
