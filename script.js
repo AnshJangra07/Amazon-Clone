@@ -66,3 +66,27 @@ document.addEventListener("DOMContentLoaded", () => {
        });
    });
 });
+
+
+document.addEventListener("DOMContentLoaded", () => {
+   // Example: smooth scrolling for navigation
+   document.querySelectorAll('ul li').forEach(anchor => {
+       anchor.addEventListener('click', function (e) {
+           e.preventDefault();
+
+           const target = document.querySelector(this.getAttribute('href'));
+           target.scrollIntoView({
+               behavior: 'smooth'
+           });
+       });
+   });
+});
+
+document.querySelector(".hamburger").addEventListener("click", () => {
+  document.querySelector(".toggle").style.left = "0"
+})
+
+// Add an event listener for close button
+document.querySelector(".close").addEventListener("click", () => {
+  document.querySelector(".toggle").style.left = "-120%"
+})
