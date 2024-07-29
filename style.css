@@ -347,7 +347,7 @@ nav li:hover {
   }
 }
 
-@media (max-width: 420px) {
+@media (max-width: 500px) {
   .hero-2 {
     height: auto;
   }
@@ -1064,7 +1064,7 @@ nav li:hover {
   }
 }
 
-@media (max-width: 420px) {
+@media (max-width: 500px) {
   .involved-content h1 {
     font-size: 40px;
   }
