@@ -284,6 +284,9 @@ nav li:hover {
   .hero-quote p {
     font-size: 1rem;
   }
+  .hero .hero-title p {
+    font-size: 15vw;
+  }
 }
 
 .hero-2 {
