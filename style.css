@@ -122,7 +122,7 @@ nav li:hover {
 } */
 
 .hero {
-  background: url(/Pictures/2.png) no-repeat center;
+  background: url(2.png) no-repeat center;
   background-size: cover;
   height: 766px;
   position: relative;
@@ -417,7 +417,7 @@ nav li:hover {
 }
 
 .aboutInner-pic {
-  background: url(/Pictures/9.png) no-repeat center;
+  background: url(9.png) no-repeat center;
   background-size: cover;
   position: relative;
   width: 50vw;
@@ -1347,7 +1347,7 @@ footer {
 }
 .footer-right {
   /* padding: 50px; */
-  background: url(/Pictures/13.png) no-repeat center;
+  background: url(13.png) no-repeat center;
   background-size: cover;
   margin-right: 30px;
 }
