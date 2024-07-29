@@ -33,7 +33,6 @@ body {
 nav {
   height: 50px;
   width: 100vw;
-  overflow-x: hidden;
   display: flex;
   position: sticky;
   z-index: 1;
@@ -122,8 +121,9 @@ nav li:hover {
 } */
 
 .hero {
-  background: url(2.png) no-repeat center;
+  background: url(/Pictures/2.png) no-repeat center;
   background-size: cover;
+  /* height: 766px; */
   height: 100vh;
   position: relative;
   width: 100vw;
@@ -132,14 +132,6 @@ nav li:hover {
 .hero .hero-title {
   width: 100vw;
   height: 40%;
-}
-
-.hero .hero-title {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  padding-top: 25px;
-  justify-content: space-around;
 }
 
 .hero .hero-title p {
@@ -260,32 +252,11 @@ nav li:hover {
   .hero .hero-title p {
     font-size: 20vw;
   }
-  .hero .hero-title {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    /* justify-content: ; */
-    flex-direction: column;
-    padding-top: 10px;
-  }
-  /* .hero .hero-title {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    
-    justify-content: space-around;
-  } */
 }
 
-@media (max-width: 420px) {
+@media (max-width: 430px) {
   .hero-quote h3 {
-    font-size: 1rem;
-  }
-  .hero-quote p {
-    font-size: 1rem;
-  }
-  .hero .hero-title p {
-    font-size: 15vw;
+    font-size: 1.2rem;
   }
 }
 
@@ -420,7 +391,7 @@ nav li:hover {
 }
 
 .aboutInner-pic {
-  background: url(9.png) no-repeat center;
+  background: url(/Pictures/9.png) no-repeat center;
   background-size: cover;
   position: relative;
   width: 50vw;
@@ -537,6 +508,38 @@ nav li:hover {
 
   .aboutInner-text p {
     margin-bottom: 10px;
+  }
+}
+@media (max-width: 500px) {
+  .aboutInner-pic {
+    width: 90vw;
+    height: 50vw;
+    margin: 10px auto;
+  }
+
+  .aboutInner-text {
+    width: 100%;
+  }
+
+  .about-title h1 {
+    margin-top: 5vw;
+    font-size: 70px;
+  }
+
+  .aboutInner-text p {
+    margin-bottom: 0px;
+    font-size: 15px;
+    margin: 20px;
+  }
+  .aboutInner-text h1 {
+    font-size: 30px;
+  }
+  .aboutInner-more {
+    padding: 10px 20px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    width: auto;
+    font-size: 1rem;
   }
 }
 
@@ -673,13 +676,17 @@ nav li:hover {
     font-size: 6vw;
   }
 
+  .content {
+    padding: 10px;
+  }
+
   .content h1 {
     font-size: 6vw;
     margin: 15px 0px;
   }
 
   .content p {
-    font-size: 13px;
+    font-size: 11px;
     line-height: 1rem;
   }
 }
@@ -775,6 +782,20 @@ nav li:hover {
   .statistics-graph img {
     width: 70vw;
     height: 70vw;
+  }
+}
+@media (max-width: 500px) {
+  .statistics-content h1 {
+    font-size: 60px;
+  }
+
+  .statistics-content p {
+    font-size: 16px;
+  }
+
+  .statistics-graph img {
+    width: 50vw;
+    height: 50vw;
   }
 }
 
@@ -1022,18 +1043,52 @@ nav li:hover {
     bottom: 15px;
     left: 23vw;
   }
+  .involved-cards .card h2 {
+    font-size: 35px;
+  }
+
+  .involved-cards .card p {
+    margin-top: 10px;
+    font-size: 20px;
+  }
+  .involved-cards .card button {
+    padding: 10px 15px;
+    font-size: 17px;
+    bottom: 15px;
+    left: 140px;
+  }
 }
 
 @media (max-width: 420px) {
+  .involved-content h1 {
+    font-size: 40px;
+  }
+
+  .involved-content p {
+    font-size: 16px;
+  }
   .involved-cards .card {
-    width: 350px;
-    height: 480px;
-    margin: 30px;
+    width: 80vw;
+    height: 320px;
+    margin: 10px;
   }
 
   .involved-cards .card button {
     bottom: 15px;
-    left: 23vw;
+    left: 24vw;
+    font-size: 12px;
+  }
+  .card img {
+    height: 40%;
+    width: 100%;
+  }
+  .involved-cards .card h2 {
+    font-size: 25px;
+  }
+
+  .involved-cards .card p {
+    margin-top: 10px;
+    font-size: 16px;
   }
 }
 
@@ -1107,6 +1162,7 @@ nav li:hover {
 .stories h1 {
   text-align: center;
   margin: 70px;
+  margin-bottom: 0px;
   font-size: 70px;
   font-family: "Courier New", Courier, monospace;
 }
@@ -1350,7 +1406,7 @@ footer {
 }
 .footer-right {
   /* padding: 50px; */
-  background: url(13.png) no-repeat center;
+  background: url(/Pictures/13.png) no-repeat center;
   background-size: cover;
   margin-right: 30px;
 }
